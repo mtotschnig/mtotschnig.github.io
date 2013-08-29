@@ -263,6 +263,9 @@ th, td {
   padding: 5px 10px;
   border-bottom: 1px solid #aaa;
 }
+td.image {
+  text-align: center;
+}
 
 dt {
   color: #222;
@@ -300,6 +303,14 @@ footer p {
 }
 footer p + p {
   float: right;
+}
+
+ul.contacts {
+    list-style-type: none;
+}
+ul.contacts li {
+   display:inline;
+   margin: 0.5em;
 }
 
 @media print, screen and (max-width: 740px) {
