@@ -315,6 +315,10 @@ ul.contacts li {
    display:inline;
    margin: 0.5em;
 }
+ul.contacts li img {
+  width: 16px;
+  height: 16px;
+}
 
 @media print, screen and (max-width: 740px) {
   body {
